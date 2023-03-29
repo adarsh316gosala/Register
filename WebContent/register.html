@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <title>Document</title>
+     <style>
+        body{
+               display: flex;
+               justify-content: center;
+               align-items: center;
+        
+        }
+        .a{
+              width: 250px;
+              height: 30px;
+              border-radius: 6px;
+              font-size: 18px;
+              background-color:white;
+              
+        }
+        #s{
+            width: 100px;
+            height: 30px;
+            border-radius: 10px;
+            font-size: 18px;
+        }
+        #l{
+            width: 100px;
+font-size: 16px;
+border-radius: 10px;
+color: black;
+
+        }
+        #b{
+            width: 400px;
+            height: 400px;
+            background-color:gold;
+            text-align: center;
+            padding-top: 30px;
+            border-radius: 30px;
+        }
+       
+
+     </style>
+     
+</head>
+<body>
+      <form action="registrationclass">
+        <div id="b">
+        <h1>Register Here</h1>
+        
+        
+        <input type="text" placeholder="Enter FullName" name="FullName" required class="a">
+        <br><br>
+        <input type="email" placeholder="Enter Email" name="email" required class="a">
+        <br> <br>
+        <input type="text" placeholder="Enter Mobile" name="mobile" required class="a" pattern="[0-9]{10}">
+        <br><br>
+        <input type="password" placeholder="Enter password" name="password"  class="a" required pattern="[a-z]{1-4}[A-Z]{1-4}[1-9]{1-4}">
+        
+        <br><br>
+        <input type="submit" value="Submit" id="s">
+
+        <button type="submit" id="l"><a href="studentlogin.html">Login</a></button>
+    <br><br>
+     </div>
+      </form> 
+      
+      
+      
+     
+</body>
+</html>
